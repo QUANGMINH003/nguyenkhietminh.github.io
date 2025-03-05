@@ -16,8 +16,7 @@ header {
     background: #ff69b4;
     /* Pink background */
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding: 10px 0;
     border-bottom: #ff1493 3px solid;
     /* Darker pink border */
 }
@@ -32,10 +31,11 @@ header a {
 header ul {
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 header li {
-    float: left;
     display: inline;
     padding: 0 20px;
 }
@@ -92,4 +92,15 @@ header nav {
 .profile p strong {
     color: #ff1493;
     /* Darker pink color */
+}
+
+footer {
+    background: #ff69b4;
+    /* Pink background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
