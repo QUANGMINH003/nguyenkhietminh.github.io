@@ -94,6 +94,40 @@ header nav {
     /* Darker pink color */
 }
 
+.education,
+.work-experience,
+.skills {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.education h2,
+.work-experience h2,
+.skills h2 {
+    color: #ff1493;
+    /* Darker pink color */
+    margin-bottom: 10px;
+}
+
+.education p,
+.work-experience p,
+.skills ul {
+    color: #666;
+    margin: 10px 0;
+}
+
+.skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
 footer {
     background: #ff69b4;
     /* Pink background */
